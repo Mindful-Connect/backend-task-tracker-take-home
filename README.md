@@ -68,9 +68,12 @@ To ensure a smooth start, this project is pre-configured to use SQLite.
 2.  Clone your new repository to your local machine.
 3.  Run `cp .env.example .env`.
 4.  Create an empty SQLite database file:
-    ```bash
-    touch database/database.sqlite
-    ```
+    *   *Mac/Linux:*
+        ```bash
+        touch database/database.sqlite
+        ```
+    *   *Windows:* Manually create an empty file named `database.sqlite` inside the `database` folder.
+      
 5.  Install PHP dependencies:
     ```bash
     composer install
